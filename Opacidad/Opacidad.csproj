@@ -100,5 +100,10 @@
   <ItemGroup>
     <Resource Include="assets\app_gimp.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\img\episodioIV.jpg" />
+    <Resource Include="assets\img\episodioV.jpg" />
+    <Resource Include="assets\img\episodioVI.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

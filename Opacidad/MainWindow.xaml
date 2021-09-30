@@ -8,6 +8,12 @@
         Title="Opacidad" Height="450" Width="800"
         Icon="assets/app_gimp.ico">
     <Grid>
-        
+        <Image x:Name="episodioIVImage" HorizontalAlignment="Left" Height="321" Margin="59,27,0,0" VerticalAlignment="Top" Width="202"
+               Source="assets/img/episodioIV.jpg" Opacity="0.5" MouseEnter="OpacityImage_MouseEnter" MouseLeave="OpacityImage_MouseLeave" />
+        <Image x:Name="episodioVImage" HorizontalAlignment="Left" Height="321" Margin="304,27,0,0" VerticalAlignment="Top" Width="202"
+               Source="assets/img/episodioV.jpg" Opacity="0.5" MouseEnter="OpacityImage_MouseEnter" MouseLeave="OpacityImage_MouseLeave"/>
+        <Image x:Name="episodioVIImage" HorizontalAlignment="Left" Height="321" Margin="548,27,0,0" VerticalAlignment="Top" Width="202"
+               Source="assets/img/episodioVI.jpg" Opacity="0.5" MouseEnter="OpacityImage_MouseEnter" MouseLeave="OpacityImage_MouseLeave"/>
+
     </Grid>
 </Window>

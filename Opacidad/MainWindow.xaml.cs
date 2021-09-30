@@ -24,5 +24,19 @@ namespace Opacidad
         {
             InitializeComponent();
         }
+
+        private void OpacityImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Image imagen = (Image)sender;
+
+            imagen.Opacity = 1.0;
+        }
+
+        private void OpacityImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Image imagen = (Image)sender;
+
+            imagen.Opacity = 0.5;
+        }
     }
 }
